@@ -1,0 +1,8 @@
+#!/bin/bash
+
+function mac {
+    ifconfig eth0 down
+    macchanger -r eth0
+    ifconfig eth0 up
+}
+mac
