@@ -6,7 +6,6 @@
 #script echo por cripton666(jaime manquel)
 
 function repositorios() {
-    sudo su 
     chmod 775 mac
     mv mac /usr/local/bin
     cd ../..
